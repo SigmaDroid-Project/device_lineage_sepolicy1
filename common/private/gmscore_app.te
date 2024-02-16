@@ -2,3 +2,4 @@ set_prop(gmscore_app, system_prop)
 allow gmscore_app aac_drc_prop:file { getattr map open };
 allow gmscore_app ab_update_gki_prop:file { getattr map open };
 allow gmscore_app adaptive_haptics_prop:file { open };
+allow gmscore_app system_data_file:file r_file_perms;
