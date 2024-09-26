@@ -1,0 +1,2 @@
+# Allow isolated_app to setattr on app_data_file
+allow isolated_app app_data_file:file setattr;
